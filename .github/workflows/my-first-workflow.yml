@@ -6,5 +6,5 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      name: Say Hallo
-      run: echo Hello
+      - name: Say Hallo
+        run: echo Hello
